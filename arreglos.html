@@ -7,11 +7,17 @@
 
 <script type="text/javascript">
 	
-var amigo = ["Daniel","Cesar"];
-//acceder al arreglo e imprimir
-document.write(amigo[0]);
-//modificar arreglo
-amigo[0] = "beto";
+var amigo = ["Daniel","Cesar","Karla","Jose"];
+
+//.length es para contar el total de los arreglos o la longitud
+//document.write("Tienes " + amigo.length + " amigos");
+amigo[amigo.length]="Jorge"; // aqui le indicamos al arreglo que va a agregar un nuevo amigo
+//otra forma de insertar datos al arreglo 
+amigo.push("Alejandra","Fernanda");
+//acceder al arreglo e imprimir document.write(amigo[0]);
+
+//modificar arreglo amigo[0] = "beto";
+
 
 
   
